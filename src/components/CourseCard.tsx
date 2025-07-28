@@ -8,6 +8,7 @@ import {
   BookOpen,
   Award
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface CourseCardProps {
   course: {
@@ -45,9 +46,11 @@ export const CourseCard = ({ course }: CourseCardProps) => {
         />
         
         {/* Overlay with play button */}
-        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-          <PlayCircle className="h-12 w-12 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        </div>
+        <Link to={`/demo/${course.id}`}>
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+            <PlayCircle className="h-12 w-12 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </div>
+        </Link>
 
         {/* Badges */}
         <div className="absolute top-3 left-3 flex gap-2">
@@ -147,10 +150,12 @@ export const CourseCard = ({ course }: CourseCardProps) => {
             )}
           </div>
           
-          <Button variant="gradient" size="sm" className="shadow-md">
-            <Award className="h-4 w-4 mr-1" />
-            Enroll Now
-          </Button>
+          <Link to={`/payment/${course.id}`}>
+            <Button variant="gradient" size="sm" className="shadow-md">
+              <Award className="h-4 w-4 mr-1" />
+              Enroll Now
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

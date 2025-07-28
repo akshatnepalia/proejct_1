@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Play, Star, Users, BookOpen, Trophy } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-education.jpg";
 
 export const Hero = () => {
@@ -50,14 +51,18 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Start Learning Today
-            </Button>
+            <Link to="/courses">
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+                Start Learning Today
+              </Button>
+            </Link>
             
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-white/10 border-white/30 text-white hover:bg-white/20">
-              <Play className="h-5 w-5 mr-2" />
-              Watch Demo
-            </Button>
+            <Link to="/demo/1">
+              <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-white/10 border-white/30 text-white hover:bg-white/20">
+                <Play className="h-5 w-5 mr-2" />
+                Watch Demo
+              </Button>
+            </Link>
           </div>
 
           {/* Stats */}
