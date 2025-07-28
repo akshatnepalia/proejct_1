@@ -9,6 +9,11 @@ import TeacherDashboard from "./pages/TeacherDashboard";
 import Assignments from "./pages/Assignments";
 import DoubtSection from "./pages/DoubtSection";
 import PerformanceTracker from "./pages/PerformanceTracker";
+import Dashboard from "./pages/Dashboard";
+import Courses from "./pages/Courses";
+import MyLearning from "./pages/MyLearning";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +26,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/my-learning" element={<MyLearning />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/student-dashboard" element={<StudentDashboard />} />
           <Route path="/teacher-dashboard" element={<TeacherDashboard />} />
           <Route path="/assignments" element={<Assignments />} />
