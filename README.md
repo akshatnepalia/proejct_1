@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+# EduPlatform - Learning Management System
 
-## Project info
+A modern, responsive learning management system built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/58cf96c9-667a-4782-a840-9656886a5607
+## 🚀 Live Demo
 
-## How can I edit this code?
+**URL**: https://your-domain.vercel.app
 
-There are several ways of editing your application.
+## 📋 Features
 
-**Use Lovable**
+- Interactive course management
+- Student and teacher dashboards
+- Assignment tracking and submission
+- Performance analytics
+- Doubt resolution system
+- Responsive design for all devices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/58cf96c9-667a-4782-a840-9656886a5607) and start prompting.
+## 🛠️ Installation
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Clone the repository and install dependencies:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd eduplatform
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project can be easily deployed to Vercel, Netlify, or any static hosting service.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 💻 Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
 
-## How can I deploy this project?
+## 📱 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/58cf96c9-667a-4782-a840-9656886a5607) and click on Share -> Publish.
+The application features a modern, responsive design that works seamlessly across desktop, tablet, and mobile devices.
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License.
