@@ -4,7 +4,7 @@ A modern, responsive learning management system built with React, TypeScript, an
 
 ## 🚀 Live Demo
 
-**URL**: https://your-domain.vercel.app
+**URL**:https://proejct-1.vercel.app
 
 ## 📋 Features
 
