@@ -186,7 +186,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="text-center pt-8 border-t border-gray-800 mt-8">
           <p className="text-gray-400 text-sm">
-            © {currentYear} EduPlatform. All rights reserved. Made with ❤️ for learners worldwide.
+            © {currentYear} EduPlatform. All rights reserved.
           </p>
         </div>
       </div>
